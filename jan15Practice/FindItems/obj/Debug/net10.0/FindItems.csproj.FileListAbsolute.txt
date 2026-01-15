@@ -1,0 +1,14 @@
+/Users/shrey/Desktop/Training_Prac/jan15Practice/FindItems/bin/Debug/net10.0/FindItems
+/Users/shrey/Desktop/Training_Prac/jan15Practice/FindItems/bin/Debug/net10.0/FindItems.deps.json
+/Users/shrey/Desktop/Training_Prac/jan15Practice/FindItems/bin/Debug/net10.0/FindItems.runtimeconfig.json
+/Users/shrey/Desktop/Training_Prac/jan15Practice/FindItems/bin/Debug/net10.0/FindItems.dll
+/Users/shrey/Desktop/Training_Prac/jan15Practice/FindItems/bin/Debug/net10.0/FindItems.pdb
+/Users/shrey/Desktop/Training_Prac/jan15Practice/FindItems/obj/Debug/net10.0/FindItems.GeneratedMSBuildEditorConfig.editorconfig
+/Users/shrey/Desktop/Training_Prac/jan15Practice/FindItems/obj/Debug/net10.0/FindItems.AssemblyInfoInputs.cache
+/Users/shrey/Desktop/Training_Prac/jan15Practice/FindItems/obj/Debug/net10.0/FindItems.AssemblyInfo.cs
+/Users/shrey/Desktop/Training_Prac/jan15Practice/FindItems/obj/Debug/net10.0/FindItems.csproj.CoreCompileInputs.cache
+/Users/shrey/Desktop/Training_Prac/jan15Practice/FindItems/obj/Debug/net10.0/FindItems.dll
+/Users/shrey/Desktop/Training_Prac/jan15Practice/FindItems/obj/Debug/net10.0/refint/FindItems.dll
+/Users/shrey/Desktop/Training_Prac/jan15Practice/FindItems/obj/Debug/net10.0/FindItems.pdb
+/Users/shrey/Desktop/Training_Prac/jan15Practice/FindItems/obj/Debug/net10.0/FindItems.genruntimeconfig.cache
+/Users/shrey/Desktop/Training_Prac/jan15Practice/FindItems/obj/Debug/net10.0/ref/FindItems.dll

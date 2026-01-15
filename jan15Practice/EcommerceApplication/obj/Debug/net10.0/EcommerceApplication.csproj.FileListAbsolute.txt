@@ -1,0 +1,14 @@
+/Users/shrey/Desktop/Training_Prac/jan15Practice/EcommerceApplication/bin/Debug/net10.0/EcommerceApplication
+/Users/shrey/Desktop/Training_Prac/jan15Practice/EcommerceApplication/bin/Debug/net10.0/EcommerceApplication.deps.json
+/Users/shrey/Desktop/Training_Prac/jan15Practice/EcommerceApplication/bin/Debug/net10.0/EcommerceApplication.runtimeconfig.json
+/Users/shrey/Desktop/Training_Prac/jan15Practice/EcommerceApplication/bin/Debug/net10.0/EcommerceApplication.dll
+/Users/shrey/Desktop/Training_Prac/jan15Practice/EcommerceApplication/bin/Debug/net10.0/EcommerceApplication.pdb
+/Users/shrey/Desktop/Training_Prac/jan15Practice/EcommerceApplication/obj/Debug/net10.0/EcommerceApplication.GeneratedMSBuildEditorConfig.editorconfig
+/Users/shrey/Desktop/Training_Prac/jan15Practice/EcommerceApplication/obj/Debug/net10.0/EcommerceApplication.AssemblyInfoInputs.cache
+/Users/shrey/Desktop/Training_Prac/jan15Practice/EcommerceApplication/obj/Debug/net10.0/EcommerceApplication.AssemblyInfo.cs
+/Users/shrey/Desktop/Training_Prac/jan15Practice/EcommerceApplication/obj/Debug/net10.0/EcommerceApplication.csproj.CoreCompileInputs.cache
+/Users/shrey/Desktop/Training_Prac/jan15Practice/EcommerceApplication/obj/Debug/net10.0/EcommerceApplication.dll
+/Users/shrey/Desktop/Training_Prac/jan15Practice/EcommerceApplication/obj/Debug/net10.0/refint/EcommerceApplication.dll
+/Users/shrey/Desktop/Training_Prac/jan15Practice/EcommerceApplication/obj/Debug/net10.0/EcommerceApplication.pdb
+/Users/shrey/Desktop/Training_Prac/jan15Practice/EcommerceApplication/obj/Debug/net10.0/EcommerceApplication.genruntimeconfig.cache
+/Users/shrey/Desktop/Training_Prac/jan15Practice/EcommerceApplication/obj/Debug/net10.0/ref/EcommerceApplication.dll

@@ -1,0 +1,52 @@
+using System;
+using System.Collections.Generic;
+
+namespace jan14Prac3
+{
+    /// <summary>
+    /// A generic utility class that works with any type T
+    /// </summary>
+    public class GenericUtility<T>
+    {
+        private List<T> _items = new List<T>();
+
+        /// <summary>
+        /// Generic Method #1
+        /// Adds an item of type T to the collection
+        /// </summary>
+        public void AddItem(T item)
+        {
+            _items.Add(item);
+            Console.WriteLine($"Item added: {item}");
+        }
+
+        /// <summary>
+        /// Generic Method #2 (with constraint)
+        /// Finds the first matching reference-type item or returns null
+        /// </summary>
+        public U? FindFirstOrNull<U>(List<U> list, Func<U, bool> predicate)
+            where U : class
+        {
+            foreach (U item in list)
+            {
+                if (predicate(item))
+                {
+                    return item;
+                }
+            }
+            return null;
+        }
+
+        /// <summary>
+        /// Helper method to display stored items
+        /// </summary>
+        public void DisplayAll()
+        {
+            Console.WriteLine("\nStored Items:");
+            foreach (T item in _items)
+            {
+                Console.WriteLine(item);
+            }
+        }
+    }
+}

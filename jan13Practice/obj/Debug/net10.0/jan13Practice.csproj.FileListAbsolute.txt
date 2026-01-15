@@ -1,0 +1,14 @@
+/Users/shrey/Desktop/Training_Prac/jan13Practice/bin/Debug/net10.0/jan13Practice
+/Users/shrey/Desktop/Training_Prac/jan13Practice/bin/Debug/net10.0/jan13Practice.deps.json
+/Users/shrey/Desktop/Training_Prac/jan13Practice/bin/Debug/net10.0/jan13Practice.runtimeconfig.json
+/Users/shrey/Desktop/Training_Prac/jan13Practice/bin/Debug/net10.0/jan13Practice.dll
+/Users/shrey/Desktop/Training_Prac/jan13Practice/bin/Debug/net10.0/jan13Practice.pdb
+/Users/shrey/Desktop/Training_Prac/jan13Practice/obj/Debug/net10.0/jan13Practice.GeneratedMSBuildEditorConfig.editorconfig
+/Users/shrey/Desktop/Training_Prac/jan13Practice/obj/Debug/net10.0/jan13Practice.AssemblyInfoInputs.cache
+/Users/shrey/Desktop/Training_Prac/jan13Practice/obj/Debug/net10.0/jan13Practice.AssemblyInfo.cs
+/Users/shrey/Desktop/Training_Prac/jan13Practice/obj/Debug/net10.0/jan13Practice.csproj.CoreCompileInputs.cache
+/Users/shrey/Desktop/Training_Prac/jan13Practice/obj/Debug/net10.0/jan13Practice.dll
+/Users/shrey/Desktop/Training_Prac/jan13Practice/obj/Debug/net10.0/refint/jan13Practice.dll
+/Users/shrey/Desktop/Training_Prac/jan13Practice/obj/Debug/net10.0/jan13Practice.pdb
+/Users/shrey/Desktop/Training_Prac/jan13Practice/obj/Debug/net10.0/jan13Practice.genruntimeconfig.cache
+/Users/shrey/Desktop/Training_Prac/jan13Practice/obj/Debug/net10.0/ref/jan13Practice.dll

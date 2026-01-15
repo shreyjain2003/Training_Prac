@@ -1,0 +1,14 @@
+/Users/shrey/Desktop/Training_Prac/jan15Practice/MovieStockApp/bin/Debug/net10.0/MovieStockApp
+/Users/shrey/Desktop/Training_Prac/jan15Practice/MovieStockApp/bin/Debug/net10.0/MovieStockApp.deps.json
+/Users/shrey/Desktop/Training_Prac/jan15Practice/MovieStockApp/bin/Debug/net10.0/MovieStockApp.runtimeconfig.json
+/Users/shrey/Desktop/Training_Prac/jan15Practice/MovieStockApp/bin/Debug/net10.0/MovieStockApp.dll
+/Users/shrey/Desktop/Training_Prac/jan15Practice/MovieStockApp/bin/Debug/net10.0/MovieStockApp.pdb
+/Users/shrey/Desktop/Training_Prac/jan15Practice/MovieStockApp/obj/Debug/net10.0/MovieStockApp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/shrey/Desktop/Training_Prac/jan15Practice/MovieStockApp/obj/Debug/net10.0/MovieStockApp.AssemblyInfoInputs.cache
+/Users/shrey/Desktop/Training_Prac/jan15Practice/MovieStockApp/obj/Debug/net10.0/MovieStockApp.AssemblyInfo.cs
+/Users/shrey/Desktop/Training_Prac/jan15Practice/MovieStockApp/obj/Debug/net10.0/MovieStockApp.csproj.CoreCompileInputs.cache
+/Users/shrey/Desktop/Training_Prac/jan15Practice/MovieStockApp/obj/Debug/net10.0/MovieStockApp.dll
+/Users/shrey/Desktop/Training_Prac/jan15Practice/MovieStockApp/obj/Debug/net10.0/refint/MovieStockApp.dll
+/Users/shrey/Desktop/Training_Prac/jan15Practice/MovieStockApp/obj/Debug/net10.0/MovieStockApp.pdb
+/Users/shrey/Desktop/Training_Prac/jan15Practice/MovieStockApp/obj/Debug/net10.0/MovieStockApp.genruntimeconfig.cache
+/Users/shrey/Desktop/Training_Prac/jan15Practice/MovieStockApp/obj/Debug/net10.0/ref/MovieStockApp.dll

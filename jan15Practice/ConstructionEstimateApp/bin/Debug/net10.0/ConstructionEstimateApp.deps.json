@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "ConstructionEstimateApp/1.0.0": {
+        "runtime": {
+          "ConstructionEstimateApp.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ConstructionEstimateApp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

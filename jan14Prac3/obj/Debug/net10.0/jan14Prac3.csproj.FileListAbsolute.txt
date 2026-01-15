@@ -1,0 +1,4 @@
+/Users/shrey/Desktop/Training_Prac/jan14Prac3/obj/Debug/net10.0/jan14Prac3.GeneratedMSBuildEditorConfig.editorconfig
+/Users/shrey/Desktop/Training_Prac/jan14Prac3/obj/Debug/net10.0/jan14Prac3.AssemblyInfoInputs.cache
+/Users/shrey/Desktop/Training_Prac/jan14Prac3/obj/Debug/net10.0/jan14Prac3.AssemblyInfo.cs
+/Users/shrey/Desktop/Training_Prac/jan14Prac3/obj/Debug/net10.0/jan14Prac3.csproj.CoreCompileInputs.cache
