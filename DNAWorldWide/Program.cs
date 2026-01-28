@@ -2,15 +2,18 @@
 
 namespace DNAWorldWide
 {
+    /// <summary>
+    /// Class to handle forensic reports
+    /// </summary>
     public class ForensicReport
     {
-        private Dictionary<string,DateOnly> reportDict=new Dictionary<string, DateOnly>();
+        private Dictionary<string,DateOnly> reportDict=new Dictionary<string, DateOnly>(); // To store reportingOfficerName and reportFiledDate
 
-        public void addReportDetails(string reportingOfficerName,DateOnly reportFiledDate )
+        public void addReportDetails(string reportingOfficerName,DateOnly reportFiledDate ) // Method to add report details
         {
             reportDict.Add(reportingOfficerName,reportFiledDate);
         }
-        public List<String> getOfficersWhoFiledReportsOnDate(DateOnly reportFiledDate)
+        public List<String> getOfficersWhoFiledReportsOnDate(DateOnly reportFiledDate) // Method to get officers who filed reports on specified date
         {
             var result=reportDict.Where(x=> x.Value==reportFiledDate).Select(x=>x.Key).ToList();
             return result;

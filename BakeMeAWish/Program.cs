@@ -31,11 +31,7 @@ namespace BakeMeAWish
 
             Console.WriteLine("Enter the cake order details (OrderId:CakeCost)");
             CakeOrder cakeorder=new CakeOrder();
-            if(number<=0)
-            {
-                Console.WriteLine("No Cake Orders Found!");
-                return;
-            }
+
             for( int i=0;i<number;i++)
             {
                 string order=Console.ReadLine();
@@ -50,12 +46,15 @@ namespace BakeMeAWish
             if(result.Count==0)
             {
                 Console.WriteLine("No Cake Orders Found!");
-                return;
             }
-            foreach(var item in result)
+            else
             {
-                Console.WriteLine($"{item.Key} : {item.Value}");
+                foreach(var item in result)
+                {
+                    Console.WriteLine($"{item.Key} : {item.Value}");
+                }
             }
+            
         }
     }
 }
