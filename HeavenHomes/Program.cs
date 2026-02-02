@@ -2,16 +2,19 @@
 
 namespace HeavenHomes
 {
+    /// <summary>
+    /// Represents an apartment with its details.
+    /// </summary>
     public class Apartment
     {
-        private Dictionary<string,double> apartmentDetailsDict=new Dictionary<string,double>();
+        private Dictionary<string,double> apartmentDetailsDict=new Dictionary<string,double>();  // Dictionary to store apartment number and rent
 
-        public void addApartmentDetails(string apartmentNumber,double rent)
+        public void addApartmentDetails(string apartmentNumber,double rent) // Method to add apartment details
         {
             apartmentDetailsDict.Add(apartmentNumber,rent);
         }
 
-        public double FindTotalRentOfApartmentsinTheGivenRange(double minimumRent, double maximumRent)
+        public double FindTotalRentOfApartmentsinTheGivenRange(double minimumRent, double maximumRent) // Method to find total rent in the given range
         {
             double result=0;
             result=apartmentDetailsDict.Where(x=> x.Value>=minimumRent && x.Value<=maximumRent).Sum(x=>x.Value);

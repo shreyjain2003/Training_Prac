@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/shrey/Desktop/Training_Prac/jan13Practice/jan13Practice.csproj",
+      "projectUniqueName": "/Users/shrey/Projects/Training_Prac/jan13Practice/jan13Practice.csproj",
       "projectName": "jan13Practice",
-      "projectPath": "/Users/shrey/Desktop/Training_Prac/jan13Practice/jan13Practice.csproj",
+      "projectPath": "/Users/shrey/Projects/Training_Prac/jan13Practice/jan13Practice.csproj",
       "packagesPath": "/Users/shrey/.nuget/packages/",
-      "outputPath": "/Users/shrey/Desktop/Training_Prac/jan13Practice/obj/",
+      "outputPath": "/Users/shrey/Projects/Training_Prac/jan13Practice/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/shrey/.nuget/NuGet/NuGet.Config"

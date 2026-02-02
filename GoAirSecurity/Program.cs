@@ -9,6 +9,7 @@ namespace GoAirSecurity
     {
         public bool validateEmployeeId(string employeeId) // Method to validate employee ID
         {
+            // Employee ID should start with "GOAIR/" and be of length 10
             string prefix="GOAIR/";
             string[] parts=employeeId.Split('/');
 
@@ -22,6 +23,12 @@ namespace GoAirSecurity
             }
         }
 
+        /// <summary>
+        /// Method to validate duration
+        /// </summary>
+        /// <param name="duration"></param>
+        /// <returns></returns>
+        /// <exception cref="InvalidCastException"></exception>
         public bool validateDuration(int duration)
         {
             if(duration > 0 && duration <= 5)
@@ -36,6 +43,9 @@ namespace GoAirSecurity
 
     } 
 
+    /// <summary>
+    /// Custom exception for invalid entry details
+    /// </summary>
     public class InvalidEntryException : Exception
     {
         public InvalidEntryException(string message) : base(message)
@@ -58,32 +68,34 @@ namespace GoAirSecurity
             {
                 for(int i = 0; i < number; i++)
                 {
+
                     try
                     {
                         Console.WriteLine("Enter the Employee ID,Entry type and Duration (colon separated) ");
                         Console.WriteLine($"Entry {i+1}:");
                         string input=Console.ReadLine();
-
                         string[] details=input.Split(":");
+
                         string employeeId=details[0];
                         string entryType=details[1];
                         int duration=int.Parse(details[2]);
-                    
-                    
+
                         bool isValidId=entryutility.validateEmployeeId(employeeId);
                         bool isValidDuration=entryutility.validateDuration(duration);
+
                         if(isValidId && isValidDuration)
                         {
                             Console.WriteLine("Valid entry details");
                         }
+                        
                     }
+
                     catch(InvalidEntryException ex) 
                     {
                         Console.WriteLine(ex.Message);
                     }
                 }
             }
-            
         }
     }
 }
