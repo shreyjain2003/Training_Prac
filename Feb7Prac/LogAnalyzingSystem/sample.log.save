@@ -1,0 +1,7 @@
+INFO Application started
+ERROR Failed to connect ERR404
+WARN Retry attempt
+ERROR Timeout occurred ERR123
+ERROR Timeout occurred ERR123
+ERROR Database error ERR500
+
