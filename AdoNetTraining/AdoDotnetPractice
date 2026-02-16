@@ -1,0 +1,38 @@
+using System;
+using System.Data;
+using Microsoft.Data.SqlClient;
+
+public class Program
+{
+    static void Main()
+    {
+        Draft();
+    }
+
+    public static void Draft()
+    {
+        string cs = "Data Source=DESKTOP-UHSE201\\SQLEXPRESS;Initial Catalog=CapGDB;Integrated Security=True;Connect Timeout=30;Encrypt=True;TrustServerCertificate=True;";
+        
+        string sql = @"SELECT ID, DEPTNAME FROM DEPT; 
+                       SELECT TOP 1 * FROM DEPT; 
+                       SELECT TOP 2 * FROM DEPT";
+
+        DataSet ds = new DataSet();
+
+        using (var con = new SqlConnection(cs))
+        using (var cmd = new SqlCommand(sql, con))
+        {
+            con.Open();
+
+            SqlDataAdapter adapter = new SqlDataAdapter(cmd);
+
+            // Fill DataSet (handles multiple result sets automatically)
+            adapter.Fill(ds);
+        }
+
+        // Save as XML file
+        ds.WriteXml("TestData.xml");
+
+        Console.WriteLine("Data successfully written to TestData.xml");
+    }
+}
