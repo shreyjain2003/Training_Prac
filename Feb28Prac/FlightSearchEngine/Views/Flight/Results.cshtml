@@ -1,0 +1,48 @@
+@model IEnumerable<dynamic>
+
+@{
+    ViewData["Title"] = "Search Results";
+}
+
+<div class="container mt-5">
+    <div class="card shadow-lg p-4">
+        <h2 class="text-center text-success mb-4">Search Results</h2>
+
+        @if (!Model.Any())
+        {
+            <div class="alert alert-danger text-center">
+                No results found.
+            </div>
+        }
+        else
+        {
+            <div class="table-responsive">
+                <table class="table table-bordered table-striped table-hover">
+                    <thead class="table-dark">
+                        <tr>
+                            @foreach (var prop in Model.First().GetType().GetProperties())
+                            {
+                                <th>@prop.Name</th>
+                            }
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                @foreach (var prop in item.GetType().GetProperties())
+                                {
+                                    <td>@prop.GetValue(item)</td>
+                                }
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        }
+
+        <div class="text-center mt-4">
+            <a href="/Flight/Index" class="btn btn-primary">Back to Search</a>
+        </div>
+    </div>
+</div>

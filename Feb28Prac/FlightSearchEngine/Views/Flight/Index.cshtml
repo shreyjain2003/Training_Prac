@@ -1,0 +1,86 @@
+@model FlightSearchEngine.Models.SearchViewModel
+
+@{
+    ViewData["Title"] = "Flight Search";
+}
+
+<div class="container mt-5">
+    <div class="card shadow-lg p-4">
+        <h2 class="text-center mb-4 text-primary">✈ Flight Search Engine</h2>
+
+        <!-- IMPORTANT: form must have asp-controller -->
+        <form method="post" asp-controller="Flight" id="searchForm">
+            @Html.AntiForgeryToken()
+
+            <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+
+            <div class="row">
+                <!-- Source -->
+                <div class="col-md-4 mb-3">
+                    <label class="form-label">Source</label>
+                    <select asp-for="Source"
+                            asp-items="Model.SourceList"
+                            class="form-select">
+                        <option value="">-- Select Source --</option>
+                    </select>
+                    <span asp-validation-for="Source" class="text-danger"></span>
+                </div>
+
+                <!-- Destination -->
+                <div class="col-md-4 mb-3">
+                    <label class="form-label">Destination</label>
+                    <select asp-for="Destination"
+                            asp-items="Model.DestinationList"
+                            class="form-select">
+                        <option value="">-- Select Destination --</option>
+                    </select>
+                    <span asp-validation-for="Destination" class="text-danger"></span>
+                </div>
+
+                <!-- Number of Persons -->
+                <div class="col-md-4 mb-3">
+                    <label class="form-label">Number of Persons</label>
+                    <input asp-for="NumberOfPersons"
+                           type="number"
+                           class="form-control"
+                           min="1"
+                           max="10" />
+                    <span asp-validation-for="NumberOfPersons" class="text-danger"></span>
+                </div>
+            </div>
+
+            <!-- Buttons -->
+            <div class="text-center mt-4">
+
+                <button type="submit"
+                        formaction="@Url.Action("SearchFlights","Flight")"
+                        class="btn btn-success me-3">
+                    Search Flights Only
+                </button>
+
+                <button type="submit"
+                        formaction="@Url.Action("SearchFlightsWithHotels","Flight")"
+                        class="btn btn-warning text-dark">
+                    Search Flight + Hotel
+                </button>
+
+            </div>
+
+            <!-- Loading Spinner -->
+            <div class="text-center mt-3 d-none" id="loadingSpinner">
+                <div class="spinner-border text-primary"></div>
+                <p>Searching...</p>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+
+    <script>
+        document.getElementById("searchForm").addEventListener("submit", function () {
+            document.getElementById("loadingSpinner").classList.remove("d-none");
+        });
+    </script>
+}
